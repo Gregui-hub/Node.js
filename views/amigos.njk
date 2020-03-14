@@ -1,0 +1,82 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin">
+            <a class="navbar-brand" href="#">
+                <img src="img/bandeira.jpg" width="150" height="150">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#zoro">Zoro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#robin">Robin</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">
+                <h3 class="margin">Quem somos</h3>
+                <img src="img/luffy.jpg" class="rounded-circle" width="400" height="400px">
+                <h3>Somos um time comprometido com os resultados</h3>
+            </div>
+        </section>
+
+        <section id="zoro">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">Zoro</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/zoro.jpg" width="75%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/zoro.jpg" width="75%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/zoro.jpg" width="75%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="robin">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">Robin</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/robin.jpg" width="75%" height="150px">
+                            <p>Temos os melhores servicos em aplicativos do Brasil
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/robin.jpg" width="75%" height="150px">
+                            <p>Temos os melhores servicos em aplicativos do Brasil
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/robin.jpg" width="75%" height="150px">
+                            <p>Temos os melhores servicos em aplicativos do Brasil
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="container-fluiid text-center bg-flooter margin">
+                <p>Desenvolvido por Victor Gregui</p>
+            </footer>
+
+        </body>
+
+    {% endblock %}
